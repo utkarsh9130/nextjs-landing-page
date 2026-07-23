@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Wallet, Globe, Mail, Share2, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";

@@ -44,9 +44,9 @@ export function Navbar() {
 
         {/* Action Buttons */}
         <div className="hidden md:flex items-center gap-3">
-          <Button variant="ghost" size="sm" asChild>
-            <Link href="#login">Log in</Link>
-          </Button>
+          <Link href="#login">
+            <Button variant="ghost" size="sm">Log in</Button>
+          </Link>
           <Button size="sm" className="gap-2">
             Get Started <ArrowRight className="w-4 h-4" />
           </Button>

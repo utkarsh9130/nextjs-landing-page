@@ -18,7 +18,7 @@ export function Hero() {
           <motion.div
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
+            transition={{ duration: 0.6 }}
             className="flex-1 text-center lg:text-left"
           >
             {/* Pill Badge */}
@@ -159,7 +159,7 @@ export function Hero() {
                 {/* Floating Widget */}
                 <motion.div
                   animate={{ y: [0, -8, 0] }}
-                  transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
+                  transition={{ repeat: Infinity, duration: 4 }}
                   className="absolute -bottom-4 -right-4 bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-4 py-3 rounded-2xl shadow-xl border border-emerald-400/30 flex items-center gap-3 hidden sm:flex"
                 >
                   <div className="p-2 rounded-xl bg-white/20 backdrop-blur-md">
